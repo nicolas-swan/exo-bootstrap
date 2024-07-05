@@ -1,5 +1,5 @@
 header {
-    background-image: url('/Users/nicolaslassouane/Library/Mobile Documents/com~apple~CloudDocs/Immersion la Piscine/WWE-BOOTSTRAP/imgWWF/tigre.jpg');
+    background-image: url('/Users/nicolaslassouane/Library/Mobile Documents/com~apple~CloudDocs/Immersion la Piscine/WWF-BOOTSTRAP/imgWWF/tigre.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -7,15 +7,10 @@ header {
     margin: 0;
     padding: 0;
     color: whitesmoke;
+    position: relative;
 }
 ul {
     font-size: 2em;
-}
-
-article{
-    background-color: grey;
-    opacity: 0.5;
-    padding : 10px;
 }
 h1 {
     font-weight: bold;
@@ -38,3 +33,31 @@ h1, p {
     padding-left: 50%;
     padding-right: 5%;
 }
+
+.image-article {
+    width: 30%;
+}
+.titre-article {
+    font-weight: bold;
+    font-size: x-large;
+}
+.item-article2 {
+    margin: 2%;
+}
+.chillin-tiger {
+    width: 30vw;
+}
+.img-diapo {
+    width: 80vw;
+}
+.custom-banner {
+            background-color: #28a745; /* Couleur de fond verte */
+            color: white; /* Couleur du texte */
+            height: 150px; /* Hauteur spécifique du bandeau */
+            display: flex;
+            align-items: center; /* Centre le contenu verticalement */
+            justify-content: center; /* Centre le contenu horizontalement */
+            text-align: center; /* Centre le texte */
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
