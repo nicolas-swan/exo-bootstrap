@@ -1,0 +1,40 @@
+header {
+    background-image: url('/Users/nicolaslassouane/Library/Mobile Documents/com~apple~CloudDocs/Immersion la Piscine/WWE-BOOTSTRAP/imgWWF/tigre.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+ul {
+    font-size: 2em;
+}
+
+article{
+    background-color: grey;
+    opacity: 0.5;
+    padding : 10px;
+}
+h1 {
+    font-weight: bold;
+    
+}
+.highlight-link {
+    color: whitesmoke;
+    transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
+}
+.highlight-link:hoover {
+    color: gray;
+    
+}
+
+.WWF-logo {
+    width: 10vw;
+}
+
+h1, p {
+    padding-left: 50%;
+    padding-right: 5%;
+}
